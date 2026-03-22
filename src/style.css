@@ -1,0 +1,209 @@
+/* ============================================================
+   DESIGN SYSTEM — La Rivière du Moulin
+   Palette : Taupe · Beige · Terre de Sienne · Bleu pâle
+   Fonts   : Cormorant Garamond (titres) · Raleway (corps)
+   ============================================================ */
+
+/* ── Variables ──────────────────────────────────────────── */
+:root {
+  /* Couleurs */
+  --cream:         #F8F3EB;
+  --beige:         #EDE6D4;
+  --beige-dark:    #D8CDBA;
+  --taupe:         #9A8A7E;
+  --taupe-dark:    #5C4E46;
+  --sienne:        #B5622B;
+  --sienne-light:  #CE8557;
+  --blue-pale:     #DCE8EF;
+  --text:          #2C2420;
+  --text-muted:    #7A6860;
+  --white:         #FEFCF9;
+
+  /* Typographie */
+  --font-heading:  'Cormorant Garamond', Georgia, serif;
+  --font-body:     'Raleway', system-ui, sans-serif;
+
+  /* Layout */
+  --section-pad:   5rem 1.5rem;
+  --max-w:         1120px;
+  --radius:        4px;
+  --radius-lg:     10px;
+
+  /* Ombres */
+  --shadow-sm:     0 2px 8px rgba(44, 36, 32, 0.08);
+  --shadow-md:     0 6px 24px rgba(44, 36, 32, 0.12);
+  --shadow-lg:     0 16px 48px rgba(44, 36, 32, 0.16);
+
+  /* Transitions */
+  --transition:    200ms ease;
+}
+
+/* ── Reset & base ───────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text);
+  background-color: var(--cream);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  font-family: var(--font-body);
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+/* ── Typography helpers ─────────────────────────────────── */
+.section-label {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--sienne);
+  margin-bottom: 0.75rem;
+}
+
+.section-title {
+  font-family: var(--font-heading);
+  font-size: clamp(2.4rem, 5vw, 3.6rem);
+  font-weight: 500;
+  line-height: 1.1;
+  color: var(--text);
+}
+
+.section-subtitle {
+  font-family: var(--font-heading);
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  font-weight: 300;
+  font-style: italic;
+  color: var(--text-muted);
+  margin-top: 0.75rem;
+  max-width: 600px;
+}
+
+/* ── Layout helpers ─────────────────────────────────────── */
+.container {
+  max-width: var(--max-w);
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.section-header .section-subtitle {
+  margin-inline: auto;
+}
+
+/* ── Ornement décoratif ─────────────────────────────────── */
+.ornament {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin: 1rem auto 0;
+  color: var(--sienne);
+  font-size: 1rem;
+}
+
+.ornament::before,
+.ornament::after {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 1px;
+  background: var(--sienne);
+  opacity: 0.5;
+}
+
+/* ── Buttons ────────────────────────────────────────────── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 2rem;
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  border-radius: var(--radius);
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: var(--sienne);
+  color: var(--white);
+  border: 2px solid var(--sienne);
+}
+.btn-primary:hover {
+  background: var(--taupe-dark);
+  border-color: var(--taupe-dark);
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--white);
+  border: 2px solid rgba(255, 255, 255, 0.65);
+}
+.btn-outline:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: var(--white);
+}
+
+.btn-outline-dark {
+  background: transparent;
+  color: var(--sienne);
+  border: 2px solid var(--sienne);
+}
+.btn-outline-dark:hover {
+  background: var(--sienne);
+  color: var(--white);
+}
+
+/* ── Scrollbar ──────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--beige);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--taupe);
+  border-radius: 3px;
+}
