@@ -324,7 +324,7 @@ const upcomingEvents = [
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--sienne);
-  background: rgba(181, 98, 43, 0.1);
+  background: rgba(140, 114, 96, 0.1);
   padding: 0.2rem 0.6rem;
   border-radius: 50px;
   margin-bottom: 0.35rem;

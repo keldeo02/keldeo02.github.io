@@ -7,17 +7,17 @@
 /* ── Variables ──────────────────────────────────────────── */
 :root {
   /* Couleurs */
-  --cream:         #F8F3EB;
-  --beige:         #EDE6D4;
-  --beige-dark:    #D8CDBA;
-  --taupe:         #9A8A7E;
+  --cream:         #EFE9E3;
+  --beige:         #E0D8D0;
+  --beige-dark:    #C8BAB0;
+  --taupe:         #9E9088;
   --taupe-dark:    #5C4E46;
-  --sienne:        #B5622B;
-  --sienne-light:  #CE8557;
-  --blue-pale:     #DCE8EF;
+  --sienne:        #8C7260;
+  --sienne-light:  #A8907E;
+  --blue-pale:     #DDD6CE;
   --text:          #2C2420;
   --text-muted:    #7A6860;
-  --white:         #FEFCF9;
+  --white:         #FAF7F4;
 
   /* Typographie */
   --font-heading:  'Cormorant Garamond', Georgia, serif;

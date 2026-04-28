@@ -48,7 +48,7 @@
               <!-- Silhouette de rivière / barque stylisée -->
               <defs>
                 <linearGradient id="riverGrad" x1="0" y1="0" x2="0" y2="1">
-                  <stop offset="0%" stop-color="#DCE8EF"/>
+                  <stop offset="0%" stop-color="#DDD6CE"/>
                   <stop offset="100%" stop-color="#9A8A7E" stop-opacity="0.3"/>
                 </linearGradient>
               </defs>
@@ -56,8 +56,8 @@
               <rect width="300" height="380" fill="#1c2830" rx="8"/>
               <!-- Reflets eau -->
               <ellipse cx="150" cy="320" rx="160" ry="60" fill="url(#riverGrad)" opacity="0.18"/>
-              <path d="M0,260 Q75,240 150,260 Q225,280 300,260 L300,380 L0,380 Z" fill="#DCE8EF" opacity="0.08"/>
-              <path d="M0,280 Q50,265 150,280 Q250,295 300,275 L300,380 L0,380 Z" fill="#DCE8EF" opacity="0.06"/>
+              <path d="M0,260 Q75,240 150,260 Q225,280 300,260 L300,380 L0,380 Z" fill="#DDD6CE" opacity="0.08"/>
+              <path d="M0,280 Q50,265 150,280 Q250,295 300,275 L300,380 L0,380 Z" fill="#DDD6CE" opacity="0.06"/>
               <!-- Reflets lunaires -->
               <circle cx="230" cy="60" r="28" fill="#F8F3EB" opacity="0.08"/>
               <circle cx="230" cy="60" r="18" fill="#F8F3EB" opacity="0.1"/>

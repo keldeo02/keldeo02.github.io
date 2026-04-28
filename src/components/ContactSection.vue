@@ -301,7 +301,7 @@ function submitForm() {
 }
 
 .contact__hours-row.is-today {
-  background: rgba(181, 98, 43, 0.07);
+  background: rgba(140, 114, 96, 0.07);
   font-weight: 600;
   color: var(--sienne);
 }
@@ -433,7 +433,7 @@ function submitForm() {
 .contact__field select:focus,
 .contact__field textarea:focus {
   border-color: var(--sienne);
-  box-shadow: 0 0 0 3px rgba(181, 98, 43, 0.1);
+  box-shadow: 0 0 0 3px rgba(140, 114, 96, 0.1);
 }
 
 .contact__field textarea {

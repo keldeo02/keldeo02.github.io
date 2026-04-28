@@ -57,8 +57,8 @@ const levels = [
               <rect width="400" height="220" fill="#EDE6D4" rx="8"/>
               <line v-for="n in 10" :key="n" :x1="0" :y1="n*20+10" :x2="400" :y2="n*20+10" stroke="#D8CDBA" stroke-width="1"/>
               <!-- Eau -->
-              <path d="M0,160 Q100,145 200,160 Q300,175 400,160 L400,220 L0,220 Z" fill="#DCE8EF" opacity="0.7"/>
-              <path d="M0,175 Q80,165 200,175 Q320,185 400,170 L400,220 L0,220 Z" fill="#DCE8EF" opacity="0.5"/>
+              <path d="M0,160 Q100,145 200,160 Q300,175 400,160 L400,220 L0,220 Z" fill="#DDD6CE" opacity="0.7"/>
+              <path d="M0,175 Q80,165 200,175 Q320,185 400,170 L400,220 L0,220 Z" fill="#DDD6CE" opacity="0.5"/>
               <!-- Lumières guirlandes -->
               <circle v-for="n in 8" :key="n" :cx="n*48+4" cy="30" r="4" fill="#F8C94D" opacity="0.8"/>
               <path d="M4,30 Q52,18 100,30 Q148,18 196,30 Q244,18 292,30 Q340,18 388,30" fill="none" stroke="#F8C94D" stroke-width="1" opacity="0.5"/>
@@ -69,7 +69,7 @@ const levels = [
               <rect x="152" y="80" width="30" height="5" rx="2" fill="#B5622B" opacity="0.6"/>
               <rect x="218" y="80" width="30" height="5" rx="2" fill="#B5622B" opacity="0.6"/>
               <!-- Verre sur table -->
-              <path d="M195,90 L200,75 L205,90 Z" fill="#DCE8EF" opacity="0.8"/>
+              <path d="M195,90 L200,75 L205,90 Z" fill="#DDD6CE" opacity="0.8"/>
             </svg>
             <svg
               v-else

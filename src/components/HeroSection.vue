@@ -100,7 +100,7 @@ function scrollTo(id) {
 .hero__bg-overlay {
   position: absolute;
   inset: 0;
-  background: radial-gradient(ellipse 80% 60% at 50% 40%, rgba(181, 98, 43, 0.15) 0%, transparent 70%);
+  background: radial-gradient(ellipse 80% 60% at 50% 40%, rgba(140, 114, 96, 0.15) 0%, transparent 70%);
 }
 
 .hero__waves {

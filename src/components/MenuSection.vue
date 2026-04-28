@@ -314,7 +314,7 @@ const current   = computed(() => categories.find(c => c.id === activeTab.value))
   white-space: nowrap;
   flex-shrink: 0;
   padding: 0.25rem 0.75rem;
-  background: rgba(181, 98, 43, 0.08);
+  background: rgba(140, 114, 96, 0.08);
   border-radius: 50px;
 }
 
