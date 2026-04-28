@@ -5,7 +5,6 @@ import AboutSection    from './components/AboutSection.vue'
 import MenuSection     from './components/MenuSection.vue'
 import TerrasseSection from './components/TerrasseSection.vue'
 import EventsSection   from './components/EventsSection.vue'
-import ContactSection  from './components/ContactSection.vue'
 import TheFooter       from './components/TheFooter.vue'
 </script>
 
@@ -18,7 +17,6 @@ import TheFooter       from './components/TheFooter.vue'
     <MenuSection />
     <TerrasseSection />
     <EventsSection />
-    <ContactSection />
   </main>
 
   <TheFooter />

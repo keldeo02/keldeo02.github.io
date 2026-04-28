@@ -35,16 +35,8 @@ function scrollTo(id) {
           <li><a href="#carte"      @click.prevent="scrollTo('carte')">La Carte</a></li>
           <li><a href="#terrasse"   @click.prevent="scrollTo('terrasse')">La Terrasse</a></li>
           <li><a href="#evenements" @click.prevent="scrollTo('evenements')">Événements</a></li>
-          <li><a href="#contact"    @click.prevent="scrollTo('contact')">Contact</a></li>
         </ul>
       </nav>
-
-      <!-- CTA -->
-      <a
-        href="#contact"
-        class="navbar__cta btn btn-primary"
-        @click.prevent="scrollTo('contact')"
-      >Réserver</a>
 
       <!-- Burger mobile -->
       <button
@@ -64,14 +56,6 @@ function scrollTo(id) {
         <li><a href="#carte"      @click.prevent="scrollTo('carte')">La Carte</a></li>
         <li><a href="#terrasse"   @click.prevent="scrollTo('terrasse')">La Terrasse</a></li>
         <li><a href="#evenements" @click.prevent="scrollTo('evenements')">Événements</a></li>
-        <li><a href="#contact"    @click.prevent="scrollTo('contact')">Contact</a></li>
-        <li>
-          <a
-            href="#contact"
-            class="btn btn-primary navbar__mobile-cta"
-            @click.prevent="scrollTo('contact')"
-          >Réserver une table</a>
-        </li>
       </ul>
     </div>
   </header>

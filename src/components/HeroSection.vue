@@ -40,9 +40,6 @@ function scrollTo(id) {
         <button class="btn btn-primary" @click="scrollTo('carte')">
           Voir la Carte
         </button>
-        <button class="btn btn-outline" @click="scrollTo('contact')">
-          Réserver une table
-        </button>
       </div>
 
       <!-- Badges / ambiance -->
